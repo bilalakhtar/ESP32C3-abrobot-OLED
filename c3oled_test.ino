@@ -23,9 +23,9 @@ void loop() {
   u8g2.firstPage();
   do {
     u8g2.setCursor(33, 40);
-    u8g2.print("NANO");
+    u8g2.print("ESP32");
     u8g2.setCursor(33, 60);
-    u8g2.print(" ");
+    u8g2.print(" C3 ");
     u8g2.drawFrame(28, 24, 72, 40);
   } while (u8g2.nextPage());
 }
